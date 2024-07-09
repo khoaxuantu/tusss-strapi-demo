@@ -4,7 +4,7 @@ module.exports = () => ({
       provider: '@strapi-community/strapi-provider-upload-google-cloud-storage',
         providerOptions: {
             bucketName: 'tusss-test-strapi',
-            uniform: false,
+            uniform: true,
             basePath: '',
         },
     },
